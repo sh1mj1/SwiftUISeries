@@ -13,6 +13,7 @@
 		4ABB6FDF28854B1500468CE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ABB6FDD28854B1500468CE5 /* Main.storyboard */; };
 		4ABB6FE128854B1A00468CE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ABB6FE028854B1A00468CE5 /* Assets.xcassets */; };
 		4ABB6FE428854B1A00468CE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ABB6FE228854B1A00468CE5 /* LaunchScreen.storyboard */; };
+		4ABB6FF3288A38BF00468CE5 /* DynamicTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABB6FF1288A38BF00468CE5 /* DynamicTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		4ABB6FE028854B1A00468CE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4ABB6FE328854B1A00468CE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4ABB6FE528854B1A00468CE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4ABB6FF1288A38BF00468CE5 /* DynamicTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +65,17 @@
 				4ABB6FE028854B1A00468CE5 /* Assets.xcassets */,
 				4ABB6FE228854B1A00468CE5 /* LaunchScreen.storyboard */,
 				4ABB6FE528854B1A00468CE5 /* Info.plist */,
+				4ABB6FF5288A38D000468CE5 /* DynamicTableViewController */,
 			);
 			path = Layout_UI_Series;
+			sourceTree = "<group>";
+		};
+		4ABB6FF5288A38D000468CE5 /* DynamicTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4ABB6FF1288A38BF00468CE5 /* DynamicTableViewController.swift */,
+			);
+			path = DynamicTableViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +151,7 @@
 			files = (
 				4ABB6FDC28854B1500468CE5 /* ViewController.swift in Sources */,
 				4ABB6FD828854B1500468CE5 /* AppDelegate.swift in Sources */,
+				4ABB6FF3288A38BF00468CE5 /* DynamicTableViewController.swift in Sources */,
 				4ABB6FDA28854B1500468CE5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
