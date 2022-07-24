@@ -16,6 +16,7 @@
 		4ABB6FE128854B1A00468CE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ABB6FE028854B1A00468CE5 /* Assets.xcassets */; };
 		4ABB6FE428854B1A00468CE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ABB6FE228854B1A00468CE5 /* LaunchScreen.storyboard */; };
 		4ABB6FF3288A38BF00468CE5 /* DynamicTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABB6FF1288A38BF00468CE5 /* DynamicTableViewController.swift */; };
+		4ACFFB60288D548200775264 /* ScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACFFB5F288D548200775264 /* ScrollView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		4ABB6FE328854B1A00468CE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4ABB6FE528854B1A00468CE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4ABB6FF1288A38BF00468CE5 /* DynamicTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicTableViewController.swift; sourceTree = "<group>"; };
+		4ACFFB5F288D548200775264 /* ScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				4ABB6FE028854B1A00468CE5 /* Assets.xcassets */,
 				4ABB6FE228854B1A00468CE5 /* LaunchScreen.storyboard */,
 				4ABB6FE528854B1A00468CE5 /* Info.plist */,
+				4ACFFB61288D548900775264 /* ScrollView */,
 				4ABB6FF5288A38D000468CE5 /* DynamicTableViewController */,
 			);
 			path = Layout_UI_Series;
@@ -82,6 +85,14 @@
 				4A03A292288AC74300D44AC1 /* DynamicTableViewCell.xib */,
 			);
 			path = DynamicTableViewController;
+			sourceTree = "<group>";
+		};
+		4ACFFB61288D548900775264 /* ScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				4ACFFB5F288D548200775264 /* ScrollView.swift */,
+			);
+			path = ScrollView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,6 +172,7 @@
 				4ABB6FD828854B1500468CE5 /* AppDelegate.swift in Sources */,
 				4ABB6FF3288A38BF00468CE5 /* DynamicTableViewController.swift in Sources */,
 				4ABB6FDA28854B1500468CE5 /* SceneDelegate.swift in Sources */,
+				4ACFFB60288D548200775264 /* ScrollView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
