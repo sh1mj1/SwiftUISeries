@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A03A293288AC74300D44AC1 /* DynamicTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A03A291288AC74300D44AC1 /* DynamicTableViewCell.swift */; };
+		4A03A294288AC74300D44AC1 /* DynamicTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A03A292288AC74300D44AC1 /* DynamicTableViewCell.xib */; };
 		4ABB6FD828854B1500468CE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABB6FD728854B1500468CE5 /* AppDelegate.swift */; };
 		4ABB6FDA28854B1500468CE5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABB6FD928854B1500468CE5 /* SceneDelegate.swift */; };
 		4ABB6FDC28854B1500468CE5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABB6FDB28854B1500468CE5 /* ViewController.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4A03A291288AC74300D44AC1 /* DynamicTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicTableViewCell.swift; sourceTree = "<group>"; };
+		4A03A292288AC74300D44AC1 /* DynamicTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DynamicTableViewCell.xib; sourceTree = "<group>"; };
 		4ABB6FD428854B1500468CE5 /* Layout_UI_Series.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Layout_UI_Series.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ABB6FD728854B1500468CE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4ABB6FD928854B1500468CE5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -74,6 +78,8 @@
 			isa = PBXGroup;
 			children = (
 				4ABB6FF1288A38BF00468CE5 /* DynamicTableViewController.swift */,
+				4A03A291288AC74300D44AC1 /* DynamicTableViewCell.swift */,
+				4A03A292288AC74300D44AC1 /* DynamicTableViewCell.xib */,
 			);
 			path = DynamicTableViewController;
 			sourceTree = "<group>";
@@ -137,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4ABB6FE428854B1A00468CE5 /* LaunchScreen.storyboard in Resources */,
+				4A03A294288AC74300D44AC1 /* DynamicTableViewCell.xib in Resources */,
 				4ABB6FE128854B1A00468CE5 /* Assets.xcassets in Resources */,
 				4ABB6FDF28854B1500468CE5 /* Main.storyboard in Resources */,
 			);
@@ -149,6 +156,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A03A293288AC74300D44AC1 /* DynamicTableViewCell.swift in Sources */,
 				4ABB6FDC28854B1500468CE5 /* ViewController.swift in Sources */,
 				4ABB6FD828854B1500468CE5 /* AppDelegate.swift in Sources */,
 				4ABB6FF3288A38BF00468CE5 /* DynamicTableViewController.swift in Sources */,
