@@ -94,51 +94,51 @@
                                 <rect key="frame" x="0.0" y="44" width="414" height="1722"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="uCi-3d-3aN">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1374.5"/>
+                                        <rect key="frame" x="20" y="0.0" width="374" height="1510.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="스크롤뷰" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8b4-x9-4SS">
-                                                <rect key="frame" x="0.0" y="0.0" width="414" height="22"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="374" height="22"/>
                                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="18"/>
                                                 <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="- 스크롤 가능한 컨텐트 뷰를 제공해야 스크롤뷰가 제대로 작동" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AcM-EP-kLX">
-                                                <rect key="frame" x="0.0" y="32" width="414" height="45.5"/>
+                                                <rect key="frame" x="0.0" y="32" width="374" height="45.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="- 컨텐트 레이아웃 - 스크롤 가능한 사이즈" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QdW-Ad-eTA">
-                                                <rect key="frame" x="0.0" y="87.5" width="414" height="23"/>
+                                                <rect key="frame" x="0.0" y="87.5" width="374" height="23"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="- 프레임 레이아웃 : 부모 뷰와 관련있는 스크롤뷰의 사이즈" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ff5-Dj-IyY">
-                                                <rect key="frame" x="0.0" y="120.5" width="414" height="45.5"/>
+                                                <rect key="frame" x="0.0" y="120.5" width="374" height="45.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="- 컨텐트 레이아웃 크기를 설정해주어야 한다." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pYT-79-CvZ">
-                                                <rect key="frame" x="0.0" y="176" width="414" height="21.5"/>
+                                                <rect key="frame" x="0.0" y="176" width="374" height="21.5"/>
                                                 <fontDescription key="fontDescription" name=".SFNS-Regular" family=".AppleSystemUIFont" pointSize="19"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="- 스크롤뷰 안에 들어가는 내용물과 탑, 바텀 앵커를 컨텐트 레이아웃의 바텀, 탑 앵커와 일치시켜야 한다." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ikp-w2-SBt">
-                                                <rect key="frame" x="0.0" y="207.5" width="414" height="45.5"/>
+                                                <rect key="frame" x="0.0" y="207.5" width="374" height="68.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nsg-lQ-CFl">
-                                                <rect key="frame" x="0.0" y="263" width="414" height="1111.5"/>
-                                                <mutableString key="text">Integer scelerisque augue diam. Morbi hendrerit est ornare purus condimentum ornare. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed ante sapien, laoreet eu orci eu, suscipit interdum ligula. Donec nec nunc nisi. Fusce nulla nisl, bibendum nec ante efficitur, malesuada gravida risus. Ut consectetur mi ac libero scelerisque, iaculis tempor lorem consectetur. Integer consequat quam sit amet quam feugiat tincidunt. Donec elementum semper sem, vel ultricies sapien feugiat vitae. Nunc laoreet fermentum cursus. Praesent sit amet fermentum nunc, eget vestibulum orci. Maecenas libero augue, tincidunt eu fringilla et, fringilla molestie mauris. Donec aliquet ullamcorper enim, et laoreet justo. Cras imperdiet sapien in tellus suscipit, ut molestie enim condimentum.
+                                                <rect key="frame" x="0.0" y="286" width="374" height="1224.5"/>
+                                                <string key="text">Integer scelerisque augue diam. Morbi hendrerit est ornare purus condimentum ornare. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed ante sapien, laoreet eu orci eu, suscipit interdum ligula. Donec nec nunc nisi. Fusce nulla nisl, bibendum nec ante efficitur, malesuada gravida risus. Ut consectetur mi ac libero scelerisque, iaculis tempor lorem consectetur. Integer consequat quam sit amet quam feugiat tincidunt. Donec elementum semper sem, vel ultricies sapien feugiat vitae. Nunc laoreet fermentum cursus. Praesent sit amet fermentum nunc, eget vestibulum orci. Maecenas libero augue, tincidunt eu fringilla et, fringilla molestie mauris. Donec aliquet ullamcorper enim, et laoreet justo. Cras imperdiet sapien in tellus suscipit, ut molestie enim condimentum.
 
 Proin non ligula nec urna iaculis pulvinar. Nulla facilisi. Phasellus id mi eu lacus dapibus semper ac at dolor. Fusce quis pretium sem, a auctor ex. Vestibulum ac sem volutpat, vehicula tortor eget, luctus dolor. Nam non ultrices purus, ac sollicitudin felis. Nulla vel augue lacus. Fusce tempor neque maximus pulvinar lacinia. Quisque tristique molestie semper. Quisque porttitor, ante et iaculis commodo, nisl est aliquet neque, aliquam ornare augue ante et nisi. Mauris lobortis mauris eu hendrerit aliquam. Fusce libero arcu, tristique et laoreet eget, interdum in purus. Proin augue augue, viverra et mattis sit amet, condimentum ut nibh. Sed sed feugiat nibh. Mauris pretium mi in nisi rutrum aliquam.
 
-Integer vulputate posuere congue. Phasellus a nulla sit amet mauris viverra bibendum. Suspendisse auctor dapibus lorem a sollicitudin. Proin egestas condimentum leo eget pellentesque. Maecenas id ipsum at urna efficitur tincidunt vitae at mi. Quisque elementum nibh non odio tempor pellentesque. Etiam id vulputate nisl, id ultrices nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec justo justo, consequat in arcu et, vulputate aliquet odio. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus</mutableString>
+Integer vulputate posuere congue. Phasellus a nulla sit amet mauris viverra bibendum. Suspendisse auctor dapibus lorem a sollicitudin. Proin egestas condimentum leo eget pellentesque. Maecenas id ipsum at urna efficitur tincidunt vitae at mi. Quisque elementum nibh non odio tempor pellentesque. Etiam id vulputate nisl, id ultrices nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec justo justo, consequat in arcu et, vulputate aliquet odio. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -147,11 +147,11 @@ Integer vulputate posuere congue. Phasellus a nulla sit amet mauris viverra bibe
                                     </stackView>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="uCi-3d-3aN" firstAttribute="width" secondItem="U1n-ZT-hDz" secondAttribute="width" id="4wc-Ln-zTc"/>
-                                    <constraint firstItem="uCi-3d-3aN" firstAttribute="leading" secondItem="Mj0-iP-yr4" secondAttribute="leading" id="AQn-nF-BPP"/>
+                                    <constraint firstItem="uCi-3d-3aN" firstAttribute="width" secondItem="U1n-ZT-hDz" secondAttribute="width" constant="-40" id="4wc-Ln-zTc"/>
+                                    <constraint firstItem="uCi-3d-3aN" firstAttribute="leading" secondItem="Mj0-iP-yr4" secondAttribute="leading" constant="20" id="AQn-nF-BPP"/>
                                     <constraint firstItem="uCi-3d-3aN" firstAttribute="bottom" secondItem="Mj0-iP-yr4" secondAttribute="bottom" id="RRx-NL-6v6"/>
                                     <constraint firstItem="uCi-3d-3aN" firstAttribute="top" secondItem="Mj0-iP-yr4" secondAttribute="top" id="XUj-Sb-ml7"/>
-                                    <constraint firstItem="uCi-3d-3aN" firstAttribute="trailing" secondItem="Mj0-iP-yr4" secondAttribute="trailing" id="rEb-Ht-UOP"/>
+                                    <constraint firstItem="uCi-3d-3aN" firstAttribute="trailing" secondItem="Mj0-iP-yr4" secondAttribute="trailing" constant="20" id="rEb-Ht-UOP"/>
                                 </constraints>
                                 <viewLayoutGuide key="contentLayoutGuide" id="Mj0-iP-yr4"/>
                                 <viewLayoutGuide key="frameLayoutGuide" id="U1n-ZT-hDz"/>
@@ -190,20 +190,159 @@ Integer vulputate posuere congue. Phasellus a nulla sit amet mauris viverra bibe
             </objects>
             <point key="canvasLocation" x="-143" y="86"/>
         </scene>
-        <!--View Controller-->
+        <!--Constraint Priority View Controller-->
         <scene sceneID="1P7-GF-SCe">
             <objects>
-                <viewController storyboardIdentifier="ConstraintPriority" id="JJg-oz-ALR" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="iT9-7i-h1z">
+                <viewController storyboardIdentifier="ConstraintPriority" id="JJg-oz-ALR" customClass="ConstraintPriorityViewController" customModule="Layout_UI_Series" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="iT9-7i-h1z" customClass="Constraint">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="owx-6P-oDs">
+                                <rect key="frame" x="60" y="64" width="130" height="130"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="130" id="3d9-3Q-2IO"/>
+                                    <constraint firstAttribute="width" constant="130" id="MEE-iH-Xpr"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="asdfasdfjaskl" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0G3-GC-Vq8">
+                                <rect key="frame" x="20" y="255" width="208" height="21"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="251" text="askdjfhskj" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="knL-fT-Wat">
+                                <rect key="frame" x="328" y="255" width="76" height="21"/>
+                                <color key="backgroundColor" systemColor="systemGreenColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="위에서 충돌이 일어나는 상황 Width와 Trailing의 Constraint가 충돌이 일어난다." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2KZ-xX-S0d">
+                                <rect key="frame" x="60" y="199" width="364" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MyG-21-wOI">
+                                <rect key="frame" x="20" y="286" width="374" height="107.5"/>
+                                <string key="text">위에서 노란 배경 label을 초록 배경 label에 trailing을 너무 작게 주면  Set horizontal hugging priority to 252 Hugging 이 발생한다! Hugging: 안으로 끌어안기. 공간이 남아서 당겨지는 상황 보존하고 싶은 UI에 Hugging Priority을 더 크게 준다.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="800" text="밀어내기_1asdfsadfasdfasdfasdfsdfasdfasdf" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SMM-0Y-LZa">
+                                <rect key="frame" x="20" y="413.5" width="194" height="21"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="밀어내기_2asdfasdfasdfasdfsadfasfd" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4rW-hG-6pH">
+                                <rect key="frame" x="364" y="413.5" width="0.0" height="21"/>
+                                <color key="backgroundColor" systemColor="systemGreenColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gKt-R2-TFj">
+                                <rect key="frame" x="20" y="444.5" width="374" height="125.5"/>
+                                <string key="text">위 Huygging에서와 같은 조건에서 Label이 너무 길 때 공간이  부족하면 Set horizontal compression resistance priority to 749 밖으로 밀어내기 공간이 없어서 쪼그라드는 상황 보존하고 싶은 UI에 Compression Resistance Priority을 더 크게 준다.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pencil.and.outline" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="imf-Pa-MHh">
+                                <rect key="frame" x="20" y="599" width="50" height="50.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="QWv-vK-MkC"/>
+                                    <constraint firstAttribute="width" constant="50" id="xL7-1W-Ga2"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label (너무 길 경우 말줄임표가 표시되어 오른쪽 3일전보다 더 낮은 우선순위)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Evd-pp-1ms">
+                                <rect key="frame" x="80" y="600" width="263" height="16"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="251" horizontalCompressionResistancePriority="800" text="3일전" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AHe-XL-qoc">
+                                <rect key="frame" x="363" y="600" width="31" height="16"/>
+                                <color key="backgroundColor" systemColor="systemGreenColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="251" horizontalCompressionResistancePriority="800" text="오른쪽의 보란 Label 이 없어지더라도 최대한 보존 labe" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ra2-nC-znc">
+                                <rect key="frame" x="80" y="634" width="286" height="16"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IOg-0x-uYc">
+                                <rect key="frame" x="381" y="634" width="13" height="18"/>
+                                <color key="backgroundColor" systemColor="systemPurpleColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yai-BF-3m5">
+                                <rect key="frame" x="20" y="670" width="374" height="93.5"/>
+                                <string key="text">첫번째 줄은 Hugging과 Compression Resistance을 초록색 Label에 주어 노란색 Label이 너무 길경우 말줄임표가 표시되도록 함.  두번째 줄은 Hugging과 Compression Resistance을 주황색 Label에 주어 너무 길 경우 보라색 Label이 없어지더라도 주황색 Label을 최대한 보존하도록 설정함.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="Sg3-sO-IF7"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="knL-fT-Wat" firstAttribute="leading" secondItem="0G3-GC-Vq8" secondAttribute="trailing" constant="100" id="0Sn-P6-azv"/>
+                            <constraint firstItem="Evd-pp-1ms" firstAttribute="top" secondItem="imf-Pa-MHh" secondAttribute="top" id="2m0-Rv-GLg"/>
+                            <constraint firstItem="MyG-21-wOI" firstAttribute="top" secondItem="0G3-GC-Vq8" secondAttribute="bottom" constant="10" id="3Js-Q4-nEq"/>
+                            <constraint firstItem="Sg3-sO-IF7" firstAttribute="trailing" secondItem="AHe-XL-qoc" secondAttribute="trailing" constant="20" id="5R4-E1-Bsn"/>
+                            <constraint firstItem="0G3-GC-Vq8" firstAttribute="leading" secondItem="Sg3-sO-IF7" secondAttribute="leading" constant="20" id="5l2-T2-NAx"/>
+                            <constraint firstItem="4rW-hG-6pH" firstAttribute="top" secondItem="SMM-0Y-LZa" secondAttribute="top" id="6Aj-AY-u43"/>
+                            <constraint firstItem="imf-Pa-MHh" firstAttribute="top" secondItem="gKt-R2-TFj" secondAttribute="bottom" constant="30" id="79X-wA-iDq"/>
+                            <constraint firstAttribute="trailing" secondItem="2KZ-xX-S0d" secondAttribute="trailing" constant="-10" id="ELr-zP-Drg"/>
+                            <constraint firstItem="AHe-XL-qoc" firstAttribute="leading" secondItem="Evd-pp-1ms" secondAttribute="trailing" constant="20" id="FTX-qe-XsD"/>
+                            <constraint firstItem="Evd-pp-1ms" firstAttribute="leading" secondItem="imf-Pa-MHh" secondAttribute="trailing" constant="10" id="Gef-Mt-pI1"/>
+                            <constraint firstItem="yai-BF-3m5" firstAttribute="top" secondItem="ra2-nC-znc" secondAttribute="bottom" constant="20" id="Ixv-1x-nxE"/>
+                            <constraint firstItem="MyG-21-wOI" firstAttribute="leading" secondItem="0G3-GC-Vq8" secondAttribute="leading" id="J87-x3-Vyd"/>
+                            <constraint firstItem="ra2-nC-znc" firstAttribute="bottom" secondItem="imf-Pa-MHh" secondAttribute="bottom" id="M7z-99-1g1"/>
+                            <constraint firstItem="yai-BF-3m5" firstAttribute="trailing" secondItem="AHe-XL-qoc" secondAttribute="trailing" id="MKk-15-50t"/>
+                            <constraint firstItem="2KZ-xX-S0d" firstAttribute="leading" secondItem="owx-6P-oDs" secondAttribute="leading" id="OGt-SR-T8W"/>
+                            <constraint firstItem="gKt-R2-TFj" firstAttribute="top" secondItem="SMM-0Y-LZa" secondAttribute="bottom" constant="10" id="OVh-Gy-umo"/>
+                            <constraint firstItem="IOg-0x-uYc" firstAttribute="trailing" secondItem="AHe-XL-qoc" secondAttribute="trailing" id="PUf-4J-cLF"/>
+                            <constraint firstItem="AHe-XL-qoc" firstAttribute="top" secondItem="Evd-pp-1ms" secondAttribute="top" id="SLH-vV-FMs"/>
+                            <constraint firstItem="knL-fT-Wat" firstAttribute="top" secondItem="0G3-GC-Vq8" secondAttribute="top" id="VMB-pH-Fc1"/>
+                            <constraint firstItem="4rW-hG-6pH" firstAttribute="leading" secondItem="SMM-0Y-LZa" secondAttribute="trailing" constant="150" id="aNn-qU-5ae"/>
+                            <constraint firstItem="0G3-GC-Vq8" firstAttribute="top" secondItem="2KZ-xX-S0d" secondAttribute="bottom" constant="20" id="aSF-sa-l0l"/>
+                            <constraint firstItem="gKt-R2-TFj" firstAttribute="leading" secondItem="SMM-0Y-LZa" secondAttribute="leading" id="bAh-jJ-zDl"/>
+                            <constraint firstItem="2KZ-xX-S0d" firstAttribute="top" secondItem="owx-6P-oDs" secondAttribute="bottom" constant="5" id="bU4-k0-qy8"/>
+                            <constraint firstItem="owx-6P-oDs" firstAttribute="leading" secondItem="Sg3-sO-IF7" secondAttribute="leading" constant="60" id="e6K-Jp-IWk"/>
+                            <constraint firstItem="IOg-0x-uYc" firstAttribute="leading" secondItem="ra2-nC-znc" secondAttribute="trailing" constant="15" id="hVm-MF-LzO"/>
+                            <constraint firstItem="owx-6P-oDs" firstAttribute="top" secondItem="Sg3-sO-IF7" secondAttribute="top" constant="20" id="kgG-M2-A7R"/>
+                            <constraint firstItem="SMM-0Y-LZa" firstAttribute="leading" secondItem="0G3-GC-Vq8" secondAttribute="leading" id="qIE-4L-gYA"/>
+                            <constraint firstAttribute="trailing" secondItem="MyG-21-wOI" secondAttribute="trailing" constant="20" id="qJd-pm-uSO"/>
+                            <constraint firstItem="imf-Pa-MHh" firstAttribute="leading" secondItem="gKt-R2-TFj" secondAttribute="leading" id="sAq-7o-Myq"/>
+                            <constraint firstItem="Sg3-sO-IF7" firstAttribute="trailing" secondItem="gKt-R2-TFj" secondAttribute="trailing" constant="20" id="uWK-QK-qLF"/>
+                            <constraint firstItem="ra2-nC-znc" firstAttribute="leading" secondItem="Evd-pp-1ms" secondAttribute="leading" id="wMi-Bd-2wC"/>
+                            <constraint firstItem="IOg-0x-uYc" firstAttribute="top" secondItem="ra2-nC-znc" secondAttribute="top" id="wyv-AU-teC"/>
+                            <constraint firstItem="Sg3-sO-IF7" firstAttribute="trailing" secondItem="4rW-hG-6pH" secondAttribute="trailing" constant="50" id="xYf-yi-Gi3"/>
+                            <constraint firstItem="Sg3-sO-IF7" firstAttribute="trailing" secondItem="knL-fT-Wat" secondAttribute="trailing" constant="10" id="y3U-W4-iR6"/>
+                            <constraint firstItem="yai-BF-3m5" firstAttribute="leading" secondItem="imf-Pa-MHh" secondAttribute="leading" id="z0l-hD-UQx"/>
+                            <constraint firstItem="Sg3-sO-IF7" firstAttribute="trailing" secondItem="owx-6P-oDs" secondAttribute="trailing" priority="800" constant="300" id="zeB-yG-sqI"/>
+                            <constraint firstItem="SMM-0Y-LZa" firstAttribute="top" secondItem="MyG-21-wOI" secondAttribute="bottom" constant="20" id="zsC-hG-QQt"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KYV-IT-hJi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1578" y="785"/>
+            <point key="canvasLocation" x="1576.8115942028987" y="784.82142857142856"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="IuU-1d-ylK">
@@ -297,8 +436,21 @@ Integer vulputate posuere congue. Phasellus a nulla sit amet mauris viverra bibe
         </scene>
     </scenes>
     <resources>
+        <image name="pencil.and.outline" catalog="system" width="128" height="128"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemPurpleColor">
+            <color red="0.68627450980392157" green="0.32156862745098042" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
