@@ -18,6 +18,10 @@
 		4ABB6FE428854B1A00468CE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ABB6FE228854B1A00468CE5 /* LaunchScreen.storyboard */; };
 		4ABB6FF3288A38BF00468CE5 /* DynamicTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABB6FF1288A38BF00468CE5 /* DynamicTableViewController.swift */; };
 		4ACFFB60288D548200775264 /* ScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACFFB5F288D548200775264 /* ScrollView.swift */; };
+		4AEDE09C28915E94002F8E2C /* StackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AEDE09B28915E94002F8E2C /* StackViewController.swift */; };
+		4AEDE09E28925FC3002F8E2C /* StackViewErrorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AEDE09D28925FC3002F8E2C /* StackViewErrorController.swift */; };
+		4AEDE0A028925FDE002F8E2C /* StackViewPracticeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AEDE09F28925FDE002F8E2C /* StackViewPracticeController.swift */; };
+		4AEDE0A5289504DE002F8E2C /* CircleBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AEDE0A4289504DE002F8E2C /* CircleBtn.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +38,10 @@
 		4ABB6FE528854B1A00468CE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4ABB6FF1288A38BF00468CE5 /* DynamicTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicTableViewController.swift; sourceTree = "<group>"; };
 		4ACFFB5F288D548200775264 /* ScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollView.swift; sourceTree = "<group>"; };
+		4AEDE09B28915E94002F8E2C /* StackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackViewController.swift; sourceTree = "<group>"; };
+		4AEDE09D28925FC3002F8E2C /* StackViewErrorController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackViewErrorController.swift; sourceTree = "<group>"; };
+		4AEDE09F28925FDE002F8E2C /* StackViewPracticeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackViewPracticeController.swift; sourceTree = "<group>"; };
+		4AEDE0A4289504DE002F8E2C /* CircleBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleBtn.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +74,9 @@
 		4ABB6FD628854B1500468CE5 /* Layout_UI_Series */ = {
 			isa = PBXGroup;
 			children = (
+				4AEDE0A128925FEA002F8E2C /* StackView */,
+				4ABB6FF5288A38D000468CE5 /* DynamicTableViewController */,
+				4ACFFB61288D548900775264 /* ScrollView */,
 				4ABB6FD728854B1500468CE5 /* AppDelegate.swift */,
 				4ABB6FD928854B1500468CE5 /* SceneDelegate.swift */,
 				4ABB6FDB28854B1500468CE5 /* ViewController.swift */,
@@ -74,8 +85,6 @@
 				4ABB6FE228854B1A00468CE5 /* LaunchScreen.storyboard */,
 				4ABB6FE528854B1A00468CE5 /* Info.plist */,
 				4A718B71288D6C2E009DC433 /* ConstraintPriorityViewController.swift */,
-				4ACFFB61288D548900775264 /* ScrollView */,
-				4ABB6FF5288A38D000468CE5 /* DynamicTableViewController */,
 			);
 			path = Layout_UI_Series;
 			sourceTree = "<group>";
@@ -96,6 +105,17 @@
 				4ACFFB5F288D548200775264 /* ScrollView.swift */,
 			);
 			path = ScrollView;
+			sourceTree = "<group>";
+		};
+		4AEDE0A128925FEA002F8E2C /* StackView */ = {
+			isa = PBXGroup;
+			children = (
+				4AEDE09B28915E94002F8E2C /* StackViewController.swift */,
+				4AEDE09D28925FC3002F8E2C /* StackViewErrorController.swift */,
+				4AEDE09F28925FDE002F8E2C /* StackViewPracticeController.swift */,
+				4AEDE0A4289504DE002F8E2C /* CircleBtn.swift */,
+			);
+			path = StackView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -171,12 +191,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A03A293288AC74300D44AC1 /* DynamicTableViewCell.swift in Sources */,
+				4AEDE09C28915E94002F8E2C /* StackViewController.swift in Sources */,
 				4ABB6FDC28854B1500468CE5 /* ViewController.swift in Sources */,
 				4ABB6FD828854B1500468CE5 /* AppDelegate.swift in Sources */,
 				4A718B72288D6C2E009DC433 /* ConstraintPriorityViewController.swift in Sources */,
 				4ABB6FF3288A38BF00468CE5 /* DynamicTableViewController.swift in Sources */,
 				4ABB6FDA28854B1500468CE5 /* SceneDelegate.swift in Sources */,
 				4ACFFB60288D548200775264 /* ScrollView.swift in Sources */,
+				4AEDE0A028925FDE002F8E2C /* StackViewPracticeController.swift in Sources */,
+				4AEDE09E28925FC3002F8E2C /* StackViewErrorController.swift in Sources */,
+				4AEDE0A5289504DE002F8E2C /* CircleBtn.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
