@@ -10,6 +10,8 @@
 		4A03A293288AC74300D44AC1 /* DynamicTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A03A291288AC74300D44AC1 /* DynamicTableViewCell.swift */; };
 		4A03A294288AC74300D44AC1 /* DynamicTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A03A292288AC74300D44AC1 /* DynamicTableViewCell.xib */; };
 		4A718B72288D6C2E009DC433 /* ConstraintPriorityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A718B71288D6C2E009DC433 /* ConstraintPriorityViewController.swift */; };
+		4A82D4BD28991DE600AF9A73 /* MyCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A82D4BC28991DE600AF9A73 /* MyCircleView.swift */; };
+		4A97B8AC2898FB230033A9A2 /* ProgrammaticViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A97B8AB2898FB230033A9A2 /* ProgrammaticViewController.swift */; };
 		4ABB6FD828854B1500468CE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABB6FD728854B1500468CE5 /* AppDelegate.swift */; };
 		4ABB6FDA28854B1500468CE5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABB6FD928854B1500468CE5 /* SceneDelegate.swift */; };
 		4ABB6FDC28854B1500468CE5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABB6FDB28854B1500468CE5 /* ViewController.swift */; };
@@ -28,6 +30,8 @@
 		4A03A291288AC74300D44AC1 /* DynamicTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicTableViewCell.swift; sourceTree = "<group>"; };
 		4A03A292288AC74300D44AC1 /* DynamicTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DynamicTableViewCell.xib; sourceTree = "<group>"; };
 		4A718B71288D6C2E009DC433 /* ConstraintPriorityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstraintPriorityViewController.swift; sourceTree = "<group>"; };
+		4A82D4BC28991DE600AF9A73 /* MyCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCircleView.swift; sourceTree = "<group>"; };
+		4A97B8AB2898FB230033A9A2 /* ProgrammaticViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammaticViewController.swift; sourceTree = "<group>"; };
 		4ABB6FD428854B1500468CE5 /* Layout_UI_Series.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Layout_UI_Series.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ABB6FD728854B1500468CE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4ABB6FD928854B1500468CE5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -55,6 +59,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4A82D4BB28991DD000AF9A73 /* ProgrammaticallyAutolayout */ = {
+			isa = PBXGroup;
+			children = (
+				4A97B8AB2898FB230033A9A2 /* ProgrammaticViewController.swift */,
+				4A82D4BC28991DE600AF9A73 /* MyCircleView.swift */,
+			);
+			path = ProgrammaticallyAutolayout;
+			sourceTree = "<group>";
+		};
 		4ABB6FCB28854B1500468CE5 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +98,7 @@
 				4ABB6FE228854B1A00468CE5 /* LaunchScreen.storyboard */,
 				4ABB6FE528854B1A00468CE5 /* Info.plist */,
 				4A718B71288D6C2E009DC433 /* ConstraintPriorityViewController.swift */,
+				4A82D4BB28991DD000AF9A73 /* ProgrammaticallyAutolayout */,
 			);
 			path = Layout_UI_Series;
 			sourceTree = "<group>";
@@ -190,10 +204,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A82D4BD28991DE600AF9A73 /* MyCircleView.swift in Sources */,
 				4A03A293288AC74300D44AC1 /* DynamicTableViewCell.swift in Sources */,
 				4AEDE09C28915E94002F8E2C /* StackViewController.swift in Sources */,
 				4ABB6FDC28854B1500468CE5 /* ViewController.swift in Sources */,
 				4ABB6FD828854B1500468CE5 /* AppDelegate.swift in Sources */,
+				4A97B8AC2898FB230033A9A2 /* ProgrammaticViewController.swift in Sources */,
 				4A718B72288D6C2E009DC433 /* ConstraintPriorityViewController.swift in Sources */,
 				4ABB6FF3288A38BF00468CE5 /* DynamicTableViewController.swift in Sources */,
 				4ABB6FDA28854B1500468CE5 /* SceneDelegate.swift in Sources */,

@@ -87,6 +87,11 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
                 controller.title = "StackViewController"
                 self.navigationController?.pushViewController(controller, animated: true)
             }
+        case 4:
+            if let controller = self.storyboard?.instantiateViewController(identifier: "ProgrammaticallyPreview"){
+                controller.title = "ProgrammaticallyPreview"
+                self.navigationController?.pushViewController(controller, animated: true)
+            }
             
             
         default:
