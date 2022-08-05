@@ -693,10 +693,10 @@ Integer vulputate posuere congue. Phasellus a nulla sit amet mauris viverra bibe
             </objects>
             <point key="canvasLocation" x="3478" y="793"/>
         </scene>
-        <!--View Controller-->
+        <!--Snap Kit View Controller-->
         <scene sceneID="YhN-X9-tbs">
             <objects>
-                <viewController storyboardIdentifier="SnapkitController" id="Bvz-ug-wf8" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SnapKitViewController" id="Bvz-ug-wf8" customClass="SnapKitViewController" customModule="Layout_UI_Series" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="yM7-8m-Zeh">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -706,7 +706,7 @@ Integer vulputate posuere congue. Phasellus a nulla sit amet mauris viverra bibe
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zY8-WQ-0wJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4886.9565217391309" y="789.50892857142856"/>
+            <point key="canvasLocation" x="4393" y="793"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="rCy-pt-AW1">

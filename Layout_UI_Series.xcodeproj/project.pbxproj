@@ -10,6 +10,7 @@
 		4A03A293288AC74300D44AC1 /* DynamicTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A03A291288AC74300D44AC1 /* DynamicTableViewCell.swift */; };
 		4A03A294288AC74300D44AC1 /* DynamicTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A03A292288AC74300D44AC1 /* DynamicTableViewCell.xib */; };
 		4A718B72288D6C2E009DC433 /* ConstraintPriorityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A718B71288D6C2E009DC433 /* ConstraintPriorityViewController.swift */; };
+		4A757E32289CFBA800549EA4 /* SnapKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A757E31289CFBA800549EA4 /* SnapKitViewController.swift */; };
 		4A82D4BD28991DE600AF9A73 /* MyCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A82D4BC28991DE600AF9A73 /* MyCircleView.swift */; };
 		4A97B8AC2898FB230033A9A2 /* ProgrammaticViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A97B8AB2898FB230033A9A2 /* ProgrammaticViewController.swift */; };
 		4ABB6FD828854B1500468CE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABB6FD728854B1500468CE5 /* AppDelegate.swift */; };
@@ -24,12 +25,16 @@
 		4AEDE09E28925FC3002F8E2C /* StackViewErrorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AEDE09D28925FC3002F8E2C /* StackViewErrorController.swift */; };
 		4AEDE0A028925FDE002F8E2C /* StackViewPracticeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AEDE09F28925FDE002F8E2C /* StackViewPracticeController.swift */; };
 		4AEDE0A5289504DE002F8E2C /* CircleBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AEDE0A4289504DE002F8E2C /* CircleBtn.swift */; };
+		F2C646AA9C8398AB50668573 /* Pods_Layout_UI_Series.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EE6077E17CFA091E8153176 /* Pods_Layout_UI_Series.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		224FA133BED479C4A843B178 /* Pods-Layout_UI_Series.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Layout_UI_Series.debug.xcconfig"; path = "Target Support Files/Pods-Layout_UI_Series/Pods-Layout_UI_Series.debug.xcconfig"; sourceTree = "<group>"; };
+		2EE6077E17CFA091E8153176 /* Pods_Layout_UI_Series.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Layout_UI_Series.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A03A291288AC74300D44AC1 /* DynamicTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicTableViewCell.swift; sourceTree = "<group>"; };
 		4A03A292288AC74300D44AC1 /* DynamicTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DynamicTableViewCell.xib; sourceTree = "<group>"; };
 		4A718B71288D6C2E009DC433 /* ConstraintPriorityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstraintPriorityViewController.swift; sourceTree = "<group>"; };
+		4A757E31289CFBA800549EA4 /* SnapKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapKitViewController.swift; sourceTree = "<group>"; };
 		4A82D4BC28991DE600AF9A73 /* MyCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCircleView.swift; sourceTree = "<group>"; };
 		4A97B8AB2898FB230033A9A2 /* ProgrammaticViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammaticViewController.swift; sourceTree = "<group>"; };
 		4ABB6FD428854B1500468CE5 /* Layout_UI_Series.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Layout_UI_Series.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,6 +51,7 @@
 		4AEDE09D28925FC3002F8E2C /* StackViewErrorController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackViewErrorController.swift; sourceTree = "<group>"; };
 		4AEDE09F28925FDE002F8E2C /* StackViewPracticeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackViewPracticeController.swift; sourceTree = "<group>"; };
 		4AEDE0A4289504DE002F8E2C /* CircleBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleBtn.swift; sourceTree = "<group>"; };
+		8CC7DADFA5BEA0114CA6230D /* Pods-Layout_UI_Series.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Layout_UI_Series.release.xcconfig"; path = "Target Support Files/Pods-Layout_UI_Series/Pods-Layout_UI_Series.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2C646AA9C8398AB50668573 /* Pods_Layout_UI_Series.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +80,8 @@
 			children = (
 				4ABB6FD628854B1500468CE5 /* Layout_UI_Series */,
 				4ABB6FD528854B1500468CE5 /* Products */,
+				CD56AD6235EC274359C2991A /* Pods */,
+				82B296BE5406F99DD0C88A6E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -93,6 +102,7 @@
 				4ABB6FD728854B1500468CE5 /* AppDelegate.swift */,
 				4ABB6FD928854B1500468CE5 /* SceneDelegate.swift */,
 				4ABB6FDB28854B1500468CE5 /* ViewController.swift */,
+				4A757E31289CFBA800549EA4 /* SnapKitViewController.swift */,
 				4ABB6FDD28854B1500468CE5 /* Main.storyboard */,
 				4ABB6FE028854B1A00468CE5 /* Assets.xcassets */,
 				4ABB6FE228854B1A00468CE5 /* LaunchScreen.storyboard */,
@@ -132,6 +142,23 @@
 			path = StackView;
 			sourceTree = "<group>";
 		};
+		82B296BE5406F99DD0C88A6E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2EE6077E17CFA091E8153176 /* Pods_Layout_UI_Series.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD56AD6235EC274359C2991A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				224FA133BED479C4A843B178 /* Pods-Layout_UI_Series.debug.xcconfig */,
+				8CC7DADFA5BEA0114CA6230D /* Pods-Layout_UI_Series.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +166,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4ABB6FE828854B1A00468CE5 /* Build configuration list for PBXNativeTarget "Layout_UI_Series" */;
 			buildPhases = (
+				CB3644D6EB6C47BE090A0D51 /* [CP] Check Pods Manifest.lock */,
 				4ABB6FD028854B1500468CE5 /* Sources */,
 				4ABB6FD128854B1500468CE5 /* Frameworks */,
 				4ABB6FD228854B1500468CE5 /* Resources */,
+				68D888104B66EF8A21CA06F6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -199,6 +228,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		68D888104B66EF8A21CA06F6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Layout_UI_Series/Pods-Layout_UI_Series-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Layout_UI_Series/Pods-Layout_UI_Series-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Layout_UI_Series/Pods-Layout_UI_Series-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB3644D6EB6C47BE090A0D51 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Layout_UI_Series-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4ABB6FD028854B1500468CE5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -213,6 +284,7 @@
 				4A718B72288D6C2E009DC433 /* ConstraintPriorityViewController.swift in Sources */,
 				4ABB6FF3288A38BF00468CE5 /* DynamicTableViewController.swift in Sources */,
 				4ABB6FDA28854B1500468CE5 /* SceneDelegate.swift in Sources */,
+				4A757E32289CFBA800549EA4 /* SnapKitViewController.swift in Sources */,
 				4ACFFB60288D548200775264 /* ScrollView.swift in Sources */,
 				4AEDE0A028925FDE002F8E2C /* StackViewPracticeController.swift in Sources */,
 				4AEDE09E28925FC3002F8E2C /* StackViewErrorController.swift in Sources */,
@@ -349,6 +421,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -358,6 +431,7 @@
 		};
 		4ABB6FE928854B1A00468CE5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 224FA133BED479C4A843B178 /* Pods-Layout_UI_Series.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -386,6 +460,7 @@
 		};
 		4ABB6FEA28854B1A00468CE5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CC7DADFA5BEA0114CA6230D /* Pods-Layout_UI_Series.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

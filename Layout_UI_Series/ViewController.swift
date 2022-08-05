@@ -92,6 +92,11 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
                 controller.title = "ProgrammaticallyPreview"
                 self.navigationController?.pushViewController(controller, animated: true)
             }
+        case 5:
+            if let controller = self.storyboard?.instantiateViewController(identifier: "SnapKitViewController"){
+                controller.title = "SnapKitViewController"
+                self.navigationController?.pushViewController(controller, animated: true)
+            }
             
             
         default:
