@@ -97,6 +97,11 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
                 controller.title = "SnapKitViewController"
                 self.navigationController?.pushViewController(controller, animated: true)
             }
+        case 6:
+            if let controller = self.storyboard?.instantiateViewController(identifier: "ProgrammaticallyAnimViewController"){
+                controller.title = "Programmatically Animation"
+                self.navigationController?.pushViewController(controller, animated: true)   
+            }
             
             
         default:

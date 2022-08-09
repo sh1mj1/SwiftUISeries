@@ -169,6 +169,10 @@ class SnapKitViewController: UIViewController {
         self.brownBoxTopNSLayoutConstraint?.constant = CGFloat(offset)
             // Snapkit 사용할 때
         self.brownBoxTopConstraint?.update(offset: offset)
+        
+        UIViewPropertyAnimator(duration: 0.2, curve: .easeOut, animations: {
+            self.view.layoutIfNeeded()
+        }).startAnimation()
     }
 
 }

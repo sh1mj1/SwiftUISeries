@@ -25,6 +25,7 @@
 		4AEDE09E28925FC3002F8E2C /* StackViewErrorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AEDE09D28925FC3002F8E2C /* StackViewErrorController.swift */; };
 		4AEDE0A028925FDE002F8E2C /* StackViewPracticeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AEDE09F28925FDE002F8E2C /* StackViewPracticeController.swift */; };
 		4AEDE0A5289504DE002F8E2C /* CircleBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AEDE0A4289504DE002F8E2C /* CircleBtn.swift */; };
+		4AF8BD5728A113390096EBFC /* ProgrammaticallyAnimViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF8BD5628A113390096EBFC /* ProgrammaticallyAnimViewController.swift */; };
 		F2C646AA9C8398AB50668573 /* Pods_Layout_UI_Series.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EE6077E17CFA091E8153176 /* Pods_Layout_UI_Series.framework */; };
 /* End PBXBuildFile section */
 
@@ -51,6 +52,7 @@
 		4AEDE09D28925FC3002F8E2C /* StackViewErrorController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackViewErrorController.swift; sourceTree = "<group>"; };
 		4AEDE09F28925FDE002F8E2C /* StackViewPracticeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackViewPracticeController.swift; sourceTree = "<group>"; };
 		4AEDE0A4289504DE002F8E2C /* CircleBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleBtn.swift; sourceTree = "<group>"; };
+		4AF8BD5628A113390096EBFC /* ProgrammaticallyAnimViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammaticallyAnimViewController.swift; sourceTree = "<group>"; };
 		8CC7DADFA5BEA0114CA6230D /* Pods-Layout_UI_Series.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Layout_UI_Series.release.xcconfig"; path = "Target Support Files/Pods-Layout_UI_Series/Pods-Layout_UI_Series.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -99,16 +101,17 @@
 				4AEDE0A128925FEA002F8E2C /* StackView */,
 				4ABB6FF5288A38D000468CE5 /* DynamicTableViewController */,
 				4ACFFB61288D548900775264 /* ScrollView */,
-				4ABB6FD728854B1500468CE5 /* AppDelegate.swift */,
+				4AF8BD5428A112FC0096EBFC /* SnapKit */,
+				4A82D4BB28991DD000AF9A73 /* ProgrammaticallyAutolayout */,
+				4AF8BD5528A1131C0096EBFC /* ConstraintPriority */,
 				4ABB6FD928854B1500468CE5 /* SceneDelegate.swift */,
 				4ABB6FDB28854B1500468CE5 /* ViewController.swift */,
-				4A757E31289CFBA800549EA4 /* SnapKitViewController.swift */,
+				4ABB6FD728854B1500468CE5 /* AppDelegate.swift */,
+				4AF8BD5628A113390096EBFC /* ProgrammaticallyAnimViewController.swift */,
 				4ABB6FDD28854B1500468CE5 /* Main.storyboard */,
 				4ABB6FE028854B1A00468CE5 /* Assets.xcassets */,
 				4ABB6FE228854B1A00468CE5 /* LaunchScreen.storyboard */,
 				4ABB6FE528854B1A00468CE5 /* Info.plist */,
-				4A718B71288D6C2E009DC433 /* ConstraintPriorityViewController.swift */,
-				4A82D4BB28991DD000AF9A73 /* ProgrammaticallyAutolayout */,
 			);
 			path = Layout_UI_Series;
 			sourceTree = "<group>";
@@ -140,6 +143,22 @@
 				4AEDE0A4289504DE002F8E2C /* CircleBtn.swift */,
 			);
 			path = StackView;
+			sourceTree = "<group>";
+		};
+		4AF8BD5428A112FC0096EBFC /* SnapKit */ = {
+			isa = PBXGroup;
+			children = (
+				4A757E31289CFBA800549EA4 /* SnapKitViewController.swift */,
+			);
+			path = SnapKit;
+			sourceTree = "<group>";
+		};
+		4AF8BD5528A1131C0096EBFC /* ConstraintPriority */ = {
+			isa = PBXGroup;
+			children = (
+				4A718B71288D6C2E009DC433 /* ConstraintPriorityViewController.swift */,
+			);
+			path = ConstraintPriority;
 			sourceTree = "<group>";
 		};
 		82B296BE5406F99DD0C88A6E /* Frameworks */ = {
@@ -281,6 +300,7 @@
 				4ABB6FDC28854B1500468CE5 /* ViewController.swift in Sources */,
 				4ABB6FD828854B1500468CE5 /* AppDelegate.swift in Sources */,
 				4A97B8AC2898FB230033A9A2 /* ProgrammaticViewController.swift in Sources */,
+				4AF8BD5728A113390096EBFC /* ProgrammaticallyAnimViewController.swift in Sources */,
 				4A718B72288D6C2E009DC433 /* ConstraintPriorityViewController.swift in Sources */,
 				4ABB6FF3288A38BF00468CE5 /* DynamicTableViewController.swift in Sources */,
 				4ABB6FDA28854B1500468CE5 /* SceneDelegate.swift in Sources */,
