@@ -11,6 +11,14 @@
 		4A03A294288AC74300D44AC1 /* DynamicTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A03A292288AC74300D44AC1 /* DynamicTableViewCell.xib */; };
 		4A718B72288D6C2E009DC433 /* ConstraintPriorityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A718B71288D6C2E009DC433 /* ConstraintPriorityViewController.swift */; };
 		4A757E32289CFBA800549EA4 /* SnapKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A757E31289CFBA800549EA4 /* SnapKitViewController.swift */; };
+		4A79382528A23D7D0035BE8A /* CollectionCompoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A79382428A23D7D0035BE8A /* CollectionCompoVC.swift */; };
+		4A79382D28A241310035BE8A /* MyTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A79382C28A241310035BE8A /* MyTableVC.swift */; };
+		4A79383028A243300035BE8A /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A79382E28A243300035BE8A /* MyTableViewCell.swift */; };
+		4A79383128A243300035BE8A /* MyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A79382F28A243300035BE8A /* MyTableViewCell.xib */; };
+		4A79383328A372E40035BE8A /* MyCollectionVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A79383228A372E40035BE8A /* MyCollectionVCViewController.swift */; };
+		4A79383528A373380035BE8A /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A79383428A373380035BE8A /* MyCollectionViewCell.swift */; };
+		4A79383728A3992B0035BE8A /* MyCustomCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A79383628A3992B0035BE8A /* MyCustomCollectionViewCell.xib */; };
+		4A79383928A39A060035BE8A /* MyCustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A79383828A39A060035BE8A /* MyCustomCollectionViewCell.swift */; };
 		4A82D4BD28991DE600AF9A73 /* MyCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A82D4BC28991DE600AF9A73 /* MyCircleView.swift */; };
 		4A97B8AC2898FB230033A9A2 /* ProgrammaticViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A97B8AB2898FB230033A9A2 /* ProgrammaticViewController.swift */; };
 		4ABB6FD828854B1500468CE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABB6FD728854B1500468CE5 /* AppDelegate.swift */; };
@@ -36,6 +44,14 @@
 		4A03A292288AC74300D44AC1 /* DynamicTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DynamicTableViewCell.xib; sourceTree = "<group>"; };
 		4A718B71288D6C2E009DC433 /* ConstraintPriorityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstraintPriorityViewController.swift; sourceTree = "<group>"; };
 		4A757E31289CFBA800549EA4 /* SnapKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapKitViewController.swift; sourceTree = "<group>"; };
+		4A79382428A23D7D0035BE8A /* CollectionCompoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionCompoVC.swift; sourceTree = "<group>"; };
+		4A79382C28A241310035BE8A /* MyTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableVC.swift; sourceTree = "<group>"; };
+		4A79382E28A243300035BE8A /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
+		4A79382F28A243300035BE8A /* MyTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyTableViewCell.xib; sourceTree = "<group>"; };
+		4A79383228A372E40035BE8A /* MyCollectionVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionVCViewController.swift; sourceTree = "<group>"; };
+		4A79383428A373380035BE8A /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
+		4A79383628A3992B0035BE8A /* MyCustomCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyCustomCollectionViewCell.xib; sourceTree = "<group>"; };
+		4A79383828A39A060035BE8A /* MyCustomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomCollectionViewCell.swift; sourceTree = "<group>"; };
 		4A82D4BC28991DE600AF9A73 /* MyCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCircleView.swift; sourceTree = "<group>"; };
 		4A97B8AB2898FB230033A9A2 /* ProgrammaticViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammaticViewController.swift; sourceTree = "<group>"; };
 		4ABB6FD428854B1500468CE5 /* Layout_UI_Series.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Layout_UI_Series.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -68,6 +84,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4A79382628A23F810035BE8A /* CollectionViewCompositionalLayout */ = {
+			isa = PBXGroup;
+			children = (
+				4A79382428A23D7D0035BE8A /* CollectionCompoVC.swift */,
+				4A79383228A372E40035BE8A /* MyCollectionVCViewController.swift */,
+				4A79382C28A241310035BE8A /* MyTableVC.swift */,
+				4A79382E28A243300035BE8A /* MyTableViewCell.swift */,
+				4A79382F28A243300035BE8A /* MyTableViewCell.xib */,
+				4A79383428A373380035BE8A /* MyCollectionViewCell.swift */,
+				4A79383628A3992B0035BE8A /* MyCustomCollectionViewCell.xib */,
+				4A79383828A39A060035BE8A /* MyCustomCollectionViewCell.swift */,
+			);
+			path = CollectionViewCompositionalLayout;
+			sourceTree = "<group>";
+		};
 		4A82D4BB28991DD000AF9A73 /* ProgrammaticallyAutolayout */ = {
 			isa = PBXGroup;
 			children = (
@@ -109,6 +140,7 @@
 				4ABB6FD728854B1500468CE5 /* AppDelegate.swift */,
 				4AF8BD5628A113390096EBFC /* ProgrammaticallyAnimViewController.swift */,
 				4ABB6FDD28854B1500468CE5 /* Main.storyboard */,
+				4A79382628A23F810035BE8A /* CollectionViewCompositionalLayout */,
 				4ABB6FE028854B1A00468CE5 /* Assets.xcassets */,
 				4ABB6FE228854B1A00468CE5 /* LaunchScreen.storyboard */,
 				4ABB6FE528854B1A00468CE5 /* Info.plist */,
@@ -238,8 +270,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A79383128A243300035BE8A /* MyTableViewCell.xib in Resources */,
 				4ABB6FE428854B1A00468CE5 /* LaunchScreen.storyboard in Resources */,
 				4A03A294288AC74300D44AC1 /* DynamicTableViewCell.xib in Resources */,
+				4A79383728A3992B0035BE8A /* MyCustomCollectionViewCell.xib in Resources */,
 				4ABB6FE128854B1A00468CE5 /* Assets.xcassets in Resources */,
 				4ABB6FDF28854B1500468CE5 /* Main.storyboard in Resources */,
 			);
@@ -295,18 +329,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A82D4BD28991DE600AF9A73 /* MyCircleView.swift in Sources */,
+				4A79383928A39A060035BE8A /* MyCustomCollectionViewCell.swift in Sources */,
 				4A03A293288AC74300D44AC1 /* DynamicTableViewCell.swift in Sources */,
 				4AEDE09C28915E94002F8E2C /* StackViewController.swift in Sources */,
 				4ABB6FDC28854B1500468CE5 /* ViewController.swift in Sources */,
 				4ABB6FD828854B1500468CE5 /* AppDelegate.swift in Sources */,
+				4A79383028A243300035BE8A /* MyTableViewCell.swift in Sources */,
+				4A79383528A373380035BE8A /* MyCollectionViewCell.swift in Sources */,
+				4A79382528A23D7D0035BE8A /* CollectionCompoVC.swift in Sources */,
 				4A97B8AC2898FB230033A9A2 /* ProgrammaticViewController.swift in Sources */,
 				4AF8BD5728A113390096EBFC /* ProgrammaticallyAnimViewController.swift in Sources */,
 				4A718B72288D6C2E009DC433 /* ConstraintPriorityViewController.swift in Sources */,
+				4A79383328A372E40035BE8A /* MyCollectionVCViewController.swift in Sources */,
 				4ABB6FF3288A38BF00468CE5 /* DynamicTableViewController.swift in Sources */,
 				4ABB6FDA28854B1500468CE5 /* SceneDelegate.swift in Sources */,
 				4A757E32289CFBA800549EA4 /* SnapKitViewController.swift in Sources */,
 				4ACFFB60288D548200775264 /* ScrollView.swift in Sources */,
 				4AEDE0A028925FDE002F8E2C /* StackViewPracticeController.swift in Sources */,
+				4A79382D28A241310035BE8A /* MyTableVC.swift in Sources */,
 				4AEDE09E28925FC3002F8E2C /* StackViewErrorController.swift in Sources */,
 				4AEDE0A5289504DE002F8E2C /* CircleBtn.swift in Sources */,
 			);

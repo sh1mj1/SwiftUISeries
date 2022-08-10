@@ -102,6 +102,11 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
                 controller.title = "Programmatically Animation"
                 self.navigationController?.pushViewController(controller, animated: true)   
             }
+        case 7:
+            if let controller = self.storyboard?.instantiateViewController(identifier: "CollectionCompVC"){
+                controller.title = "CollectionView Compositional Layout"
+                self.navigationController?.pushViewController(controller, animated: true)
+            }
             
             
         default:
