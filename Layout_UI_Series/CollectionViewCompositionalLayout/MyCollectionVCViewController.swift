@@ -36,7 +36,7 @@ class MyCollectionVCViewController: UIViewController {
         self.myCollectionView.register(myCollectionViewCellNib, forCellWithReuseIdentifier: String(describing: MyCustomCollectionViewCell.self))
         
         // CollectionViewLayout 적용
-        self.myCollectionView.collectionViewLayout = createCompositionalLayoutForFirst()
+        self.myCollectionView.collectionViewLayout = createCompositionalLayout(1, 1)
     }
 
     // MARK : - Action
@@ -45,13 +45,13 @@ class MyCollectionVCViewController: UIViewController {
         
         switch sender.selectedSegmentIndex {
         case 0:
-            self.myCollectionView.collectionViewLayout = createCompositionalLayoutForFirst()
+            self.myCollectionView.collectionViewLayout = createCompositionalLayout(1, 1)
         case 1:
-            self.myCollectionView.collectionViewLayout = createCompositionalLayoutForSecond()
+            self.myCollectionView.collectionViewLayout = createCompositionalLayout(1, 2)
         case 2:
-            self.myCollectionView.collectionViewLayout = createCompositionalLayoutForThird()
+            self.myCollectionView.collectionViewLayout = createCompositionalLayout(1, 3)
         default:
-            self.myCollectionView.collectionViewLayout = createCompositionalLayoutForFirst()
+            self.myCollectionView.collectionViewLayout = createCompositionalLayout(1, 1)
         }
     }
     
@@ -60,7 +60,7 @@ class MyCollectionVCViewController: UIViewController {
 // MARK : - CollectionViewLayout == 섹션 간 간격, 그룹 간 간격 등을 설정할 수 있다.
 extension MyCollectionVCViewController {
     // Compositional Layout 설정
-    fileprivate func createCompositionalLayoutForFirst() -> UICollectionViewLayout {
+    fileprivate func createCompositionalLayout(_ itemFractionWidth: CGFloat, _ itemCount: Int) -> UICollectionViewLayout {
         print("MyCollectionVCViewController - createCompositionalLayoutForFirst() called")
         // Compositional Layout 생성
         let layout = UICollectionViewCompositionalLayout {
@@ -69,7 +69,7 @@ extension MyCollectionVCViewController {
             
             // the size of item
                 // --- Dimension - absolute = 고정값, estimate = 추측, fraction = 퍼센트
-            let itemSize = NSCollectionLayoutSize(widthDimension: .fractionalWidth(1), heightDimension: .fractionalWidth(1/3))
+            let itemSize = NSCollectionLayoutSize(widthDimension: .fractionalWidth(itemFractionWidth), heightDimension: .fractionalWidth(1/3))
             
             // itemSize 로 item 생성
             let item = NSCollectionLayoutItem(layoutSize: itemSize)
@@ -82,7 +82,7 @@ extension MyCollectionVCViewController {
             
             // 그룹 만들기
 //            let group = NSCollectionLayoutGroup.horizontal(layoutSize: groupSize, subitems: item, count: 1)
-            let group = NSCollectionLayoutGroup.horizontal(layoutSize: groupSize, subitems: [item])
+            let group = NSCollectionLayoutGroup.horizontal(layoutSize: groupSize, subitem: item, count: itemCount)
             
             // section with group
             let section = NSCollectionLayoutSection(group: group)
@@ -93,7 +93,7 @@ extension MyCollectionVCViewController {
             return section
             
         }
-        
+        print(itemFractionWidth)
         
         return layout
     }
@@ -104,35 +104,35 @@ extension MyCollectionVCViewController {
         let layout = UICollectionViewCompositionalLayout {
             // 만들게 되면 튜플 (키: 값, 키: 값)의 묶음으로 들어온다. 반환하는 것은 NSCollectionLayoutSection.
             (sectionIndex: Int, layoutEnvironment: NSCollectionLayoutEnvironment) -> NSCollectionLayoutSection? in
-            
+
             // the size of item
                 // --- Dimension - absolute = 고정값, estimate = 추측, fraction = 퍼센트
             let itemSize = NSCollectionLayoutSize(widthDimension: .fractionalWidth(1/2), heightDimension: .fractionalWidth(1/3))
-            
+
             // itemSize 로 item 생성
             let item = NSCollectionLayoutItem(layoutSize: itemSize)
-            
+
             // item 간의 간격
             item.contentInsets = NSDirectionalEdgeInsets(top: 2, leading: 2, bottom: 2, trailing: 2)
-            
+
             // 그룹 사이즈
             let groupSize = NSCollectionLayoutSize(widthDimension: .fractionalWidth(1.0), heightDimension: itemSize.heightDimension)
-            
+
             // 그룹 만들기
             let group = NSCollectionLayoutGroup.horizontal(layoutSize: groupSize, subitem: item, count: 2)
 //            let group = NSCollectionLayoutGroup.horizontal(layoutSize: groupSize, subitems: [item], count: 2)
-            
+
             // section with group
             let section = NSCollectionLayoutSection(group: group)
-            
+
             // 섹션에 대한 간격
             section.contentInsets = NSDirectionalEdgeInsets(top: 20, leading: 20, bottom: 20, trailing: 20)
-            
+
             return section
-            
+
         }
-        
-        
+
+
         return layout
     }
     fileprivate func createCompositionalLayoutForThird() -> UICollectionViewLayout {
@@ -140,32 +140,32 @@ extension MyCollectionVCViewController {
         let layout = UICollectionViewCompositionalLayout {
             // 만들게 되면 튜플 (키: 값, 키: 값)의 묶음으로 들어온다. 반환하는 것은 NSCollectionLayoutSection.
             (sectionIndex: Int, layoutEnvironment: NSCollectionLayoutEnvironment) -> NSCollectionLayoutSection? in
-            
+
             // the size of item
                 // --- Dimension - absolute = 고정값, estimate = 추측, fraction = 퍼센트
             let itemSize = NSCollectionLayoutSize(widthDimension: .fractionalWidth(1), heightDimension: .fractionalWidth(1/3))
-            
+
             // itemSize 로 item 생성
             let item = NSCollectionLayoutItem(layoutSize: itemSize)
-            
+
             // item 간의 간격
             item.contentInsets = NSDirectionalEdgeInsets(top: 2, leading: 2, bottom: 2, trailing: 2)
-            
+
             // 그룹 사이즈
             let groupSize = NSCollectionLayoutSize(widthDimension: .fractionalWidth(1.0), heightDimension: itemSize.heightDimension)
-            
+
             // 그룹 만들기
             let group = NSCollectionLayoutGroup.horizontal(layoutSize: groupSize, subitem: item, count: 3)
 //            let group = NSCollectionLayoutGroup.horizontal(layoutSize: groupSize, subitems: [item, item, item])
-            
+
             // section with group
             let section = NSCollectionLayoutSection(group: group)
-            
+
             // 섹션에 대한 간격
             section.contentInsets = NSDirectionalEdgeInsets(top: 20, leading: 20, bottom: 20, trailing: 20)
-            
+
             return section
-            
+
         }
 
         return layout
