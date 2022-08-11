@@ -107,6 +107,11 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
                 controller.title = "CollectionView Compositional Layout"
                 self.navigationController?.pushViewController(controller, animated: true)
             }
+        case 8:
+            if let controller = self.storyboard?.instantiateViewController(identifier: "DiffableTableVC") {
+                controller.title = "Diffable DataSource"
+                self.navigationController?.pushViewController(controller, animated: true)
+            }
             
             
         default:

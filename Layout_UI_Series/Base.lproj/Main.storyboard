@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="V6o-gJ-eHl">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="EFw-Z6-dHM">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
@@ -902,16 +902,59 @@ Integer vulputate posuere congue. Phasellus a nulla sit amet mauris viverra bibe
             </objects>
             <point key="canvasLocation" x="7361" y="1239"/>
         </scene>
-        <!--View Controller-->
+        <!--Diffable TableVC-->
         <scene sceneID="rDp-82-5tF">
             <objects>
-                <viewController storyboardIdentifier="TableViewDiffableDataSource" id="EFw-Z6-dHM" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="DiffableTableVC" id="EFw-Z6-dHM" customClass="DiffableTableVC" customModule="Layout_UI_Series" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="96w-VG-81K">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="dWr-KL-wLe">
+                                <rect key="frame" x="0.0" y="105" width="414" height="791"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NxE-nF-0uJ">
+                                <rect key="frame" x="20" y="64" width="66" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Delete">
+                                    <backgroundConfiguration key="background" cornerRadius="12">
+                                        <color key="strokeColor" systemColor="labelColor"/>
+                                    </backgroundConfiguration>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="deleteLastFeed:" destination="EFw-Z6-dHM" eventType="touchUpInside" id="CuC-D1-Oh0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oOd-mt-oKH">
+                                <rect key="frame" x="96" y="64" width="61" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Insert">
+                                    <backgroundConfiguration key="background" cornerRadius="12">
+                                        <color key="strokeColor" systemColor="labelColor"/>
+                                    </backgroundConfiguration>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="appendFeed:" destination="EFw-Z6-dHM" eventType="touchUpInside" id="7Qd-qo-mou"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="owu-v1-jOJ"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="NxE-nF-0uJ" firstAttribute="top" secondItem="owu-v1-jOJ" secondAttribute="top" constant="20" id="F7m-vj-yU0"/>
+                            <constraint firstItem="oOd-mt-oKH" firstAttribute="leading" secondItem="NxE-nF-0uJ" secondAttribute="trailing" constant="10" id="Rd8-L5-79e"/>
+                            <constraint firstItem="oOd-mt-oKH" firstAttribute="top" secondItem="NxE-nF-0uJ" secondAttribute="top" id="WMs-Xb-7gK"/>
+                            <constraint firstAttribute="bottom" secondItem="dWr-KL-wLe" secondAttribute="bottom" id="ZMl-db-Jrk"/>
+                            <constraint firstItem="dWr-KL-wLe" firstAttribute="leading" secondItem="owu-v1-jOJ" secondAttribute="leading" id="bNz-tH-G0V"/>
+                            <constraint firstItem="NxE-nF-0uJ" firstAttribute="leading" secondItem="owu-v1-jOJ" secondAttribute="leading" constant="20" id="qVX-X4-nOY"/>
+                            <constraint firstItem="dWr-KL-wLe" firstAttribute="top" secondItem="NxE-nF-0uJ" secondAttribute="bottom" constant="10" id="upB-ei-dWX"/>
+                            <constraint firstItem="owu-v1-jOJ" firstAttribute="trailing" secondItem="dWr-KL-wLe" secondAttribute="trailing" id="zyu-no-HYx"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="diffTableView" destination="dWr-KL-wLe" id="dN4-aj-pgE"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gWq-Na-7Ty" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

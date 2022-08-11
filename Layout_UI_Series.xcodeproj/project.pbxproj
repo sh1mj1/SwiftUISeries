@@ -19,6 +19,9 @@
 		4A79383528A373380035BE8A /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A79383428A373380035BE8A /* MyCollectionViewCell.swift */; };
 		4A79383728A3992B0035BE8A /* MyCustomCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A79383628A3992B0035BE8A /* MyCustomCollectionViewCell.xib */; };
 		4A79383928A39A060035BE8A /* MyCustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A79383828A39A060035BE8A /* MyCustomCollectionViewCell.swift */; };
+		4A79383C28A4B76A0035BE8A /* DiffableTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A79383B28A4B76A0035BE8A /* DiffableTableVC.swift */; };
+		4A79384028A4BA910035BE8A /* DiffableTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A79383E28A4BA910035BE8A /* DiffableTVCell.swift */; };
+		4A79384128A4BA910035BE8A /* DiffableTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A79383F28A4BA910035BE8A /* DiffableTVCell.xib */; };
 		4A82D4BD28991DE600AF9A73 /* MyCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A82D4BC28991DE600AF9A73 /* MyCircleView.swift */; };
 		4A97B8AC2898FB230033A9A2 /* ProgrammaticViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A97B8AB2898FB230033A9A2 /* ProgrammaticViewController.swift */; };
 		4ABB6FD828854B1500468CE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABB6FD728854B1500468CE5 /* AppDelegate.swift */; };
@@ -52,6 +55,9 @@
 		4A79383428A373380035BE8A /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
 		4A79383628A3992B0035BE8A /* MyCustomCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyCustomCollectionViewCell.xib; sourceTree = "<group>"; };
 		4A79383828A39A060035BE8A /* MyCustomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomCollectionViewCell.swift; sourceTree = "<group>"; };
+		4A79383B28A4B76A0035BE8A /* DiffableTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiffableTableVC.swift; sourceTree = "<group>"; };
+		4A79383E28A4BA910035BE8A /* DiffableTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiffableTVCell.swift; sourceTree = "<group>"; };
+		4A79383F28A4BA910035BE8A /* DiffableTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DiffableTVCell.xib; sourceTree = "<group>"; };
 		4A82D4BC28991DE600AF9A73 /* MyCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCircleView.swift; sourceTree = "<group>"; };
 		4A97B8AB2898FB230033A9A2 /* ProgrammaticViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammaticViewController.swift; sourceTree = "<group>"; };
 		4ABB6FD428854B1500468CE5 /* Layout_UI_Series.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Layout_UI_Series.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -99,6 +105,24 @@
 			path = CollectionViewCompositionalLayout;
 			sourceTree = "<group>";
 		};
+		4A79383A28A4B73A0035BE8A /* ProgrammaticallyAnim */ = {
+			isa = PBXGroup;
+			children = (
+				4AF8BD5628A113390096EBFC /* ProgrammaticallyAnimViewController.swift */,
+			);
+			name = ProgrammaticallyAnim;
+			sourceTree = "<group>";
+		};
+		4A79383D28A4B7700035BE8A /* DiffableTableVC */ = {
+			isa = PBXGroup;
+			children = (
+				4A79383B28A4B76A0035BE8A /* DiffableTableVC.swift */,
+				4A79383E28A4BA910035BE8A /* DiffableTVCell.swift */,
+				4A79383F28A4BA910035BE8A /* DiffableTVCell.xib */,
+			);
+			name = DiffableTableVC;
+			sourceTree = "<group>";
+		};
 		4A82D4BB28991DD000AF9A73 /* ProgrammaticallyAutolayout */ = {
 			isa = PBXGroup;
 			children = (
@@ -135,15 +159,16 @@
 				4AF8BD5428A112FC0096EBFC /* SnapKit */,
 				4A82D4BB28991DD000AF9A73 /* ProgrammaticallyAutolayout */,
 				4AF8BD5528A1131C0096EBFC /* ConstraintPriority */,
-				4ABB6FD928854B1500468CE5 /* SceneDelegate.swift */,
-				4ABB6FDB28854B1500468CE5 /* ViewController.swift */,
-				4ABB6FD728854B1500468CE5 /* AppDelegate.swift */,
-				4AF8BD5628A113390096EBFC /* ProgrammaticallyAnimViewController.swift */,
-				4ABB6FDD28854B1500468CE5 /* Main.storyboard */,
+				4A79383A28A4B73A0035BE8A /* ProgrammaticallyAnim */,
 				4A79382628A23F810035BE8A /* CollectionViewCompositionalLayout */,
+				4ABB6FD728854B1500468CE5 /* AppDelegate.swift */,
+				4ABB6FDB28854B1500468CE5 /* ViewController.swift */,
+				4ABB6FD928854B1500468CE5 /* SceneDelegate.swift */,
+				4ABB6FDD28854B1500468CE5 /* Main.storyboard */,
 				4ABB6FE028854B1A00468CE5 /* Assets.xcassets */,
 				4ABB6FE228854B1A00468CE5 /* LaunchScreen.storyboard */,
 				4ABB6FE528854B1A00468CE5 /* Info.plist */,
+				4A79383D28A4B7700035BE8A /* DiffableTableVC */,
 			);
 			path = Layout_UI_Series;
 			sourceTree = "<group>";
@@ -273,6 +298,7 @@
 				4A79383128A243300035BE8A /* MyTableViewCell.xib in Resources */,
 				4ABB6FE428854B1A00468CE5 /* LaunchScreen.storyboard in Resources */,
 				4A03A294288AC74300D44AC1 /* DynamicTableViewCell.xib in Resources */,
+				4A79384128A4BA910035BE8A /* DiffableTVCell.xib in Resources */,
 				4A79383728A3992B0035BE8A /* MyCustomCollectionViewCell.xib in Resources */,
 				4ABB6FE128854B1A00468CE5 /* Assets.xcassets in Resources */,
 				4ABB6FDF28854B1500468CE5 /* Main.storyboard in Resources */,
@@ -332,10 +358,12 @@
 				4A79383928A39A060035BE8A /* MyCustomCollectionViewCell.swift in Sources */,
 				4A03A293288AC74300D44AC1 /* DynamicTableViewCell.swift in Sources */,
 				4AEDE09C28915E94002F8E2C /* StackViewController.swift in Sources */,
+				4A79384028A4BA910035BE8A /* DiffableTVCell.swift in Sources */,
 				4ABB6FDC28854B1500468CE5 /* ViewController.swift in Sources */,
 				4ABB6FD828854B1500468CE5 /* AppDelegate.swift in Sources */,
 				4A79383028A243300035BE8A /* MyTableViewCell.swift in Sources */,
 				4A79383528A373380035BE8A /* MyCollectionViewCell.swift in Sources */,
+				4A79383C28A4B76A0035BE8A /* DiffableTableVC.swift in Sources */,
 				4A79382528A23D7D0035BE8A /* CollectionCompoVC.swift in Sources */,
 				4A97B8AC2898FB230033A9A2 /* ProgrammaticViewController.swift in Sources */,
 				4AF8BD5728A113390096EBFC /* ProgrammaticallyAnimViewController.swift in Sources */,
